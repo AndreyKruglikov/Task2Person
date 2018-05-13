@@ -57,8 +57,7 @@ public class Person {
         return false;
     }
 
-    // Setter
-    public void setSpouse(Person spouse) {
+    private void setSpouse(Person spouse) {
         this.spouse = spouse;
     }
 
