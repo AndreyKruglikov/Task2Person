@@ -33,6 +33,7 @@ public class Person {
                 }
                 person.getSpouse().divorce();
             }
+            spouse.divorce();
         } else {
             if (person.getSpouse() != null) {
                 person.getSpouse().divorce();
