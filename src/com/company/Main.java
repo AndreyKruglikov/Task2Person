@@ -9,12 +9,11 @@ public class Main {
         Person valentin = new Person(true, "Valentin");
         Person maria = new Person(false, "Maria");
 
-	    System.out.println(egor.marry(maria));
-        System.out.println(valentin.marry(svetlana));
+        System.out.println(egor.marry(svetlana));
+        System.out.println(egor.marry(maria));
 
         System.out.println(egor.getSpouse());
         System.out.println(svetlana.getSpouse());
-        System.out.println(valentin.getSpouse());
         System.out.println(maria.getSpouse());
     }
 }
